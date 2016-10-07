@@ -3,4 +3,4 @@ PROTOC = $(NANOPB)/generator-bin/protoc --nanopb_out="-v:." -I ~/Arduino/librari
 .PHONY: proto
 
 proto:
-        $(PROTOC)/api/device/*.proto
+	$(PROTOC)/api/device/*.proto
