@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message Measurement {
+  optional float temperature = 100;
+  optional float humidity = 101;
+
+  repeated uint32 analog_readings = 110;
+}
